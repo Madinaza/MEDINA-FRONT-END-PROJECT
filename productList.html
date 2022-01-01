@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="stylesheet" href="assets/css/productList.css">
+</head>
+<body>
+   
+    <header>
+        <div class="container">
+         <nav class="nav">
+             <ul class="nav__list">
+                 <li class="nav__listLogo col-lg-4">
+                     <img src="assets/image/logo.png" width="200px" height="25px" alt="this is logo" >
+                 </li>
+                 <li class="nav__listitem"><a href="">HOME
+                    <ul class="nav__listitemdrop">
+                        <li class="nav__listitemd"><a href="">Main Home</a> </li>
+                        <li class="nav__listitemd"><a href="">Grid Home</a> </li>
+                        <li class="nav__listitemd"><a href="">Flower Shop</a> </li>
+                        <li class="nav__listitemd"><a href="">Animated Slider</a> </li>
+                        <li class="nav__listitemd"><a href="">Metro Showcase</a> </li>
+                        <li class="nav__listitemd"><a href="">Landing</a> </li>
+
+                    </ul>
+                 </a> 
+                 </li>
+                 <li class="nav__listitem"><a href="">PAGES
+                    <ul class="nav__listitemdrop">
+                        <li class="nav__listitemd"><a href="">About Us</a> </li>
+                        <li class="nav__listitemd"><a href="">FAQ Page</a> </li>
+                        <li class="nav__listitemd"><a href="">Contact Us</a> </li>
+                    </ul>
+                 </a>             
+                   </li>
+                 <li class="nav__listitem"><a href="">
+                    SHOP
+                 </a>
+                </li>
+                 <li class="nav__listitem"><a href="">PORTFOLIO
+                    <ul class="nav__listitemdrop">
+                        <li class="nav__listitemd">Standart</li>
+                        <li class="nav__listitemd">Gallery</li>
+                        <li class="nav__listitemd">Masonry</li>
+                        <li class="nav__listitemd">Portfollio Layouts</li>
+                        <li class="nav__listitemd">Portfollio Single</li>
+
+                    </ul>
+                 </a>
+                   
+                 </li>
+                 <li class="nav__listitem"><a href="">BLOG
+                    <ul class="nav__listitemdrop">
+                        <li class="nav__listitemd">Standart</li>
+                        <li class="nav__listitemd">Post Type</li>
+                        <li class="nav__listitemd">Masonry</li>                     
+                    </ul>
+                 </a>
+                 </li>
+                 <li class="nav__listitem"><a href="">ELEMENTS
+                    <ul class="nav__listitemdrop">
+                        <li class="nav__listitemd">Classic</li>
+                        <li class="nav__listitemd">Infographic</li>
+                        <li class="nav__listitemd">interactive</li>
+                        <li class="nav__listitemd">Typography</li>
+                        
+                    </ul>
+                 </a>
+                 </li>                
+                 <a class="text-decoration-none text-dark searchIcon " href="">
+                     <span >
+                         <i class="fas fa-search fa-1x"></i>
+                     </span>
+                 </a>
+                 <div class="shopping-cart d-flex">
+                        <div class="cart__counter">
+                            <i class="fas fa-shopping-bag fa-1x">
+                                <span class="total__counter">0</span>
+                             </i>
+                        </div>
+                            
+                             <div class="shopping-card-list d-none ">
+                                <b class="fs-3 text-dark my-3 "></b>  
+                              </div>
+                             
+                         </span>
+                        
+                         
+ 
+ 
+                        
+                        
+                </div>
+             </ul>
+         </nav>
+
+         <div class="cart">
+             <div class="cart__items">
+                
+                 <div class="check__out">
+                    <h4>Total Amount: $</h4>
+                    <h4 class="total__cost">$0</h4>
+                <button class="btn check_out_btn">Check Out</button>
+
+            </div>
+
+             </div>
+         </div>
+
+         <!-- <nav class="nav2">
+            <ul class="nav__list">
+                <li class="nav__listLogo col-lg-4">
+                    <img src="assets/image/logo.png" width="200px" height="25px" alt="this is logo" >
+                </li>
+                <li class="nav__listitem"><a href="">HOME
+                   <ul class="nav__listitemdrop">
+                       <li class="nav__listitem"><a href="">Main Home</a> </li>
+                       <li class="nav__listitem"><a href="">Grid Home</a> </li>
+                       <li class="nav__listitem"><a href="">Flower Shop</a> </li>
+                       <li class="nav__listitem"><a href="">Animated Slider</a> </li>
+                       <li class="nav__listitem"><a href="">Metro Showcase</a> </li>
+                       <li class="nav__listitem"><a href="">Landing</a> </li>
+
+                   </ul>
+                </a> 
+                </li>
+                <li class="nav__listitem"><a href="">PAGES
+                   <ul class="nav__listitemdrop">
+                       <li class="nav__listitem"><a href="">About Us</a> </li>
+                       <li class="nav__listitem"><a href="">FAQ Page</a> </li>
+                       <li class="nav__listitem"><a href="">Contact Us</a> </li>
+                   </ul>
+                </a>             
+                  </li>
+                <li class="nav__listitem"><a href="">
+                   SHOP
+                </a>
+               </li>
+                <li class="nav__listitem"><a href="">PORTFOLIO
+                   <ul class="nav__listitemdrop">
+                       <li class="nav__listitem">Standart</li>
+                       <li class="nav__listitem">Gallery</li>
+                       <li class="nav__listitem">Masonry</li>
+                       <li class="nav__listitem">Portfollio Layouts</li>
+                       <li class="nav__listitem">Portfollio Single</li>
+
+                   </ul>
+                </a>
+                  
+                </li>
+                <li class="nav__listitem"><a href="">BLOG
+                   <ul class="nav__listitemdrop">
+                       <li class="nav__listitem">Standart</li>
+                       <li class="nav__listitem">Post Type</li>
+                       <li class="nav__listitem">Masonry</li>                     
+                   </ul>
+                </a>
+                </li>
+                <li class="nav__listitem"><a href="">ELEMENTS
+                   <ul class="nav__listitemdrop">
+                       <li class="nav__listitem">Classic</li>
+                       <li class="nav__listitem">Infographic</li>
+                       <li class="nav__listitem">interactive</li>
+                       <li class="nav__listitem">Typography</li>
+                       
+                   </ul>
+                </a>
+                </li>                
+               
+            </ul>
+        </nav> -->
+        </div>
+        
+     </header>
+
+
+     <div class="Product-tag">
+        <div class="container">
+        <div class="text">
+        <h1>Product List</h1>
+        <span>
+            Where flowers are our inspiration
+        </span>
+        </div>
+         </div>
+    </div>
+
+    <section class="ProductList">
+     <div class="container">
+         <div class="row">
+            
+                <div class="col-lg-2">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="assets/image/or1.jpg" width="118px" height="145px" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="assets/image/or2.jpg"  width="118px" height="145px"  alt="">
+
+                        </div>
+                        <div class="col-3">
+                            <img src="assets/image/or3.jpg"  width="118px" height="145px"  alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="assets/image/or4.jpg"  width="118px" height="145px"  alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-5">
+                    <img src="assets/image/orbig.jpg" width="498px" height="643px" alt="">
+                </div>
+                <div class="col-lg-5 paraghPart">
+                   <div class="paragh">
+                    <h2>
+                        Orange Amaryllis
+                    </h2>
+                    <span>
+                        $259
+                    </span>
+                    <p>
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.
+                    </p>
+
+                   </div>
+
+                   <!-- <input type="text" placeholder="Quantity"> -->
+
+                   <div class="product-meta">
+                       <span class="skuBeggin">
+                           SKU:
+                           <span class="sku">
+                            989873
+                           </span>
+                       </span>
+
+                    <span class="categories">
+                        Categories:
+                        <a href="">
+
+                            Exotic,
+                        </a>
+                        <a href="">
+                            Various
+                        </a>
+                    </span>
+
+                    <span class="tags">
+                        Tags:
+                        <a href="">
+                            Llilies
+                        </a>
+                        <a href="">
+                            Orchids
+                        </a>
+                    </span>
+
+
+                   </div>
+
+
+
+
+
+
+
+                </div>
+            
+         </div>
+     </div>
+    </section>
+    
+
+    <section class="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="tabs3 col-lg-12">
+                    <div class="tab-header3">
+                        <div class="active item3" data-id="description">Description</div>
+                        <div class="item3" data-id="additional">Additional information </div>
+                        <div class="item3" data-id="rew">Reviews (2) </div>
+           
+                    </div>
+                    <div class="tab-body3">
+                        <div class="active desc " data-id="description">
+                            <h2 class="paragh">The power of flowers</h2>
+                            <p>
+                                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+                            </p>
+                        </div>
+           
+                        <div class="addit" data-id="additional">
+                            <span class="mains">
+                                Weight:
+                               
+                            </span>
+                            <span class="seconds">
+                                1 kg
+                            </span><br>
+                            <span class="mains">
+                                Dimensions:
+                               
+                            </span>
+                            <span class="seconds">
+                                30 × 30 × 50 cm
+                            </span>
+
+                       </div>
+           
+                       <div class="rewi" data-id="rew">
+                           <h3>
+                            Reviews
+                           </h3>
+                           <div class="row">
+                               <div class="col-lg-1 mt-2">
+                                   <img src="assets/image/expert2.png" width="70px" height="70px" alt="">
+                               </div>
+                               <div class="col-lg-11">
+                                   <span class="name">
+                                    JOSHUA GARCIA
+                                   </span>
+                                   <span class="time">
+                                    27.04.2018
+                                   </span>
+                                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                               </div>
+
+                               <div class="col-lg-1 mt-4">
+                                <img src="assets/image/expert3.png" width="70px" height="70px" alt="">
+                            </div>
+                            <div class="col-lg-11  ">
+                                <span class="name">
+                                    JOAN STANLEY
+                                </span>
+                                <span class="time">
+                                 27.04.2018
+                                </span>
+                                <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+
+                                </p>
+                            </div>
+
+                            <h3 class="mt-5">
+                                Add a review
+                            </h3>
+              <p class="adress"> 
+                Your email address will not be published. Required fields are marked *
+            </p>
+            
+            <label for="comment" style="color:#6d6a6a;">Your review<span class="required">*</span></label>
+            <textarea id="comment" name="comment" cols="45" rows="8" required=""></textarea>
+
+            <label for="author" style="margin-top:20px; color: #6d6a6a;">Name<span class="required">*</span></label>
+            <input id="author" name="author" type="text" value="" size="30" required="">
+
+            <label for="email" style="margin-top:20px; color: #6d6a6a;" >Email<span class="required">*</span></label>
+            <input id="email" name="email" type="email" value="" size="30" required="">
+
+            <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent" style="display: block;
+                padding: 0 0 5px;">Save my name, email, and website in this browser for the next time I comment.</label></p>
+
+<input name="submit" type="submit" id="submit" class="submit" value="Submit">
+
+                           </div>
+                       </div>
+                    </div>
+           
+           
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <span>
+                    RELATED PRODUCTS
+
+                </span>
+                
+                <div   data-id="CACTUSES " class="image col-lg-3 col-md-6  mt-3">
+               <input type="hidden" name="" id="product__id" value="1">
+        <div class="image-about">
+            <div class="img">
+                <img src="assets/image/shop-14-img.jpg"width="295px" height="380px" alt="">
+            </div>
+            <div class="about">
+                <p>MAJESTY PALM</p>
+                <span>$259</span><br>
+                <span class="addToCart">Add to cart</span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div data-id="POPULAR"class="image col-lg-3 col-md-6 mt-3">
+        <input type="hidden" name="" id="product__id" value="2">
+       <div class="image-about">
+           <div class="img">
+               <img src="assets/image/shop-13-img.jpg"width="295px" height="380px" alt="">
+           </div>
+           <div class="about">
+               <p>FOXGLOVE FLOWER</p>
+               <span>$259</span><br>
+               <span class="addToCart">Add to cart</span>
+
+           </div>
+       </div>
+
+
+   </div>
+
+
+   <div data-id="WINTER"class=" image col-lg-3  mt-3">
+    <input type="hidden" name="" id="product__id" value="3">
+
+       <div class="image-about">
+           <div class="img">
+               <img src="assets/image/3.jpg"width="295px" height="380px" alt="">
+           </div>
+           <div class="about">
+               <p>MAJESTY PALM</p>
+               <span>$259</span><br>
+               <span class="addToCart">Add to cart</span>
+
+           </div>
+       </div>
+
+
+   </div>
+
+
+   <div  data-id="EXOTIC"class=" image col-lg-3 mt-3">
+    <input type="hidden" name="" id="product__id" value="4">
+
+       <div class="image-about">
+           <div class="img">
+               <img src="assets/image/4.jpg"width="295px" height="380px" alt="">
+           </div>
+           <div class="about">
+               <p>SWEET ALYSSUM</p>
+               <span>$259</span><br>
+               <span class="addToCart">Add to cart</span>
+
+           </div>
+       </div>
+
+
+   </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="abouts col-lg-3">
+                    <div class="title">
+                        <h6>
+                            CUSTOMER SERVICE
+                        </h6>
+                    </div>
+                    <div class="title-list">
+                        <ul class="list-unstyled">
+                            <li><a href="">
+                                Help & Contact Us
+                            </a></li>
+                            <li>
+                                <a href="">
+                                    Returns & Refunds
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Online Stores
+                                </a>
+                            </li>
+                            <li><a href="">
+                                Terms & Conditions
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="abouts col-lg-3">
+                    <div class="title">
+                        <h6>
+                            COMPANY
+                        </h6>
+                    </div>
+                    <div class="title-list">
+                        <ul class="list-unstyled">
+                            <li><a href="">
+                                About Us
+                            </a></li>
+                            <li>
+                                <a href="">
+                                    Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Order Tracking
+                                </a>
+                            </li>
+                            <li><a href="">
+                                FAQ Page
+                            </a></li>
+                            <li><a href="">
+                                Contact Us
+                            </a></li>
+                            <li><a href="">
+                                Login
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="abouts col-lg-3">
+                    <div class="title">
+                        <h6>
+                            SOCIAL MEDIA
+                        </h6>
+                    </div>
+                    <div class="title-list">
+                        <ul class="list-unstyled">
+                            <li><a href="">
+                                Twitter
+                            </a></li>
+                            <li>
+                                <a href="">
+                                    Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Tumblr
+                                </a>
+                            </li>
+                            <li><a href="">
+                                Pinterest
+                            </a></li>
+                          
+                        </ul>
+                    </div>
+                </div>
+
+                
+                <div class="abouts col-lg-3">
+                    <div class="title">
+                        <h6>
+                            ARCHIVE
+                        </h6>
+                    </div>
+                    <div class="title-list">
+                        <ul class="list-unstyled">
+                            <li><a href="">
+                                Designer Shoes
+                            </a></li>
+                            <li>
+                                <a href="">
+                                    Gallery
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li><a href="">
+                                Feature Index
+                            </a></li>
+
+                            <li><a href="">
+                                Login
+                            </a></li>
+                            <li><a href="">
+                                Help & Support
+                            </a></li>
+                          
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class=" rights col-lg-4">
+                        © 2018 <a href="">
+                            Qode Interactive 
+                        </a>
+                        , All Rights Reserved
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="widget">
+                            <img src="assets/image/footer-bottom-1.png" width="197px" height="21px" alt="this is widget" srcset="">
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="sosiol-footer">
+                            <a href="">
+                                <span>
+                                    INSTAGRAM
+                                </span>
+                                <span>
+                                    FACEBOOK
+                                </span>
+                            
+                            </a>
+                            
+                               
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/productList.js"></script>
+</body>
+</html>
